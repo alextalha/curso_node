@@ -1,5 +1,6 @@
 var app = require('./config/server.js');
 
+
 var rotaIndex = require('./app/routes/index')(app);
 
 var rotaNoticias = require('./app/routes/noticias')(app);
