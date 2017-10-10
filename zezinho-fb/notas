@@ -1,0 +1,21 @@
+
+http://lorenstewart.me/2017/03/12/using-node-js-to-interact-with-facebooks-graph-api/
+
+https://github.com/passport/express-4.x-facebook-example
+
+
+
+INSTALAÇÃO 
+npm install fb -> MODULO PARA INTERAÇÃO COM FACEBOOK
+npm install express -> MODULO DE ROTAS 
+npm install --save request request-promise -> PARA REQUISIÇÕES
+npm install passport -> MODULO PARA AUTENTICACAO
+
+
+pagina da criação e listagem dos aplicativos 
+https://developers.facebook.com/apps/592229234500814/dashboard/
+
+
+$ CLIENT_ID=592229234500814 CLIENT_SECRET=0b5e3f4e02bbbf5650f5420959577ebc node server.js
+
+https://developers.facebook.com/apps/592229234500814/settings/basic/
