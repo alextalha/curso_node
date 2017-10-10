@@ -1,22 +1,10 @@
 var app = require('./config/server.js');
 
+var rotaIndex = require('./app/routes/index')(app);
 
+var rotaNoticias = require('./app/routes/noticias')(app);
 
-app.get('/',function(req,res){
- //res.send('Está rodando a opção teste');
-  res.render('home/index');
-});
-
-
-app.get('/form_inclusao_noticia',function(req,res){
-  res.render('admin/form_add_noticias');
-});
-
-
-app.get('/noticias',function(req,res){
-  res.render('noticias/noticias');
-});
-
+var rotaFormAddNoticias = require('./app/routes/form_inclusao_noticias')(app);
 
 
 app.listen(8081,function(){
