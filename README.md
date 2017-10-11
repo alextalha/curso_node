@@ -81,6 +81,20 @@ curso_node
         
 
 
+=======================================
+
+CONSIGN
+
+=========================================
+
+INSTALAÇÃO 
+
+npm install consign --save
+
+
+o consign vai ficar no arquivo server.js
+ele vai nos ajudar a não precisar escrever as referencias as rotas . ele já vai pegar automaticamente ( autoload ) 
+
 
 rickcrossbr
 
