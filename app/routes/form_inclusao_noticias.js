@@ -14,13 +14,18 @@ module.exports = function(app){
       });
       
       conn.query('select * from noticias', function(erro,result){
-            res.send(result);
-             //  res.render('admin/form_add_noticias');
+            //res.send(result);
+             res.render('admin/form_add_noticias',{noticias: result});
       });
       
     });
+    
     
 }
 
 
 
+
+
+
+    

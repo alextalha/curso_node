@@ -42,3 +42,5 @@ create table noticias(
     data_criacao timestamp default current_timestamp,
 );
 
+
+
