@@ -43,4 +43,44 @@ create table noticias(
 );
 
 
+==========================================================
+
+Estamos agora padronizando a aplicacao, separando o design pattern. 
+
+
+
+
+node plataforma do v8 , lado servidor . 
+express =>  desenvolvimento de sistemas web
+
+ejs -> embed javascript . 
+nodemon utilitario que fica em stand by caso tenha alteração de script.
+
+
+====================
+estruta de projetos
+====================
+
+
+curso_node
+    app
+        routes
+        views
+            admin
+            home
+            noticias
+    config
+        db.connection
+        server.js
+    node_modules
+    app.js
+    mod_teste.js
+    noticias.js
+    package.json
+    
+        
+
+
+
+rickcrossbr
 
